@@ -1,7 +1,7 @@
 const net = require('net');
 const port = 3000;
 
-function createServer() {
+function createServerConnection() {
     return new Promise((resolve, reject) => {
         try {
             let server = net.createServer();
@@ -16,14 +16,16 @@ function createServer() {
 
 (async () => {
     try {
-        let serverConnection = await createServer();
+        let serverConnection = await createServerConnection();
 
         serverConnection.on('connection', (client) => {
             console.log('A client connected');
 
-            client.on('end', console.log('A client disconnected'))
+            client.on('end', () => {
+                console.log('A client disconnected')
+            })
         })
     } catch (err) {
         throw err
     }
-})
+})();
