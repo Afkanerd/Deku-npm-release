@@ -1,4 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-//Todo : add components
+import HelloWorld from './components/HelloWorld';
+
+render(<HelloWorld />, document.getElementById('root'))
