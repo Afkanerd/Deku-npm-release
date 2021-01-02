@@ -1,1 +1,13 @@
 // custom styles + overrides 
+
+// overrides
+$body-bg: #F1F4F9;
+$theme-colors: (
+  "primary": #2D9CDB,
+  "danger": #ff4136,
+  "secondary": #B6C5E3,
+  "dark": #4C5A78,
+  "light": #F1F4F9,
+);
+
+@import "~bootstrap/scss/bootstrap";
