@@ -3,6 +3,6 @@ import { render } from 'react-dom';
 
 import './main.scss';
 
-import HelloWorld from './components/HelloWorld';
+import MainNav from './components/MainNav';
 
-render(<HelloWorld />, document.getElementById('root'))
+render(<MainNav />, document.getElementById('root'))
