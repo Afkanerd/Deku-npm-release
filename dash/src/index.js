@@ -3,6 +3,6 @@ import { render } from 'react-dom';
 
 import './main.scss';
 
-import MainNav from './components/MainNav';
+import DashBoard from './components/DashBoard';
 
-render(<MainNav />, document.getElementById('root'))
+render(<DashBoard />, document.getElementById('root'))

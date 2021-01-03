@@ -1,20 +1,19 @@
 import React from 'react';
-
 import { Container, Row, Col } from "react-bootstrap";
+
+import MainNav from './MainNav';
 
 const DashBoard = () => {
     return (
-        <Container>
-            <Row>
-                <Col>1 of 2</Col>
-                <Col>2 of 2</Col>
-            </Row>
-            <Row>
-                <Col>1 of 3</Col>
-                <Col>2 of 3</Col>
-                <Col>3 of 3</Col>
-            </Row>
-        </Container>
+        <>
+            <MainNav />
+            <Container fluid>
+                <Row>
+                    <Col md={3}>1 of 2</Col>
+                    <Col md={9}>2 of 2</Col>
+                </Row>
+            </Container>
+        </>
     );
 };
 
