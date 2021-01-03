@@ -1,18 +1,19 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
 
 import MainNav from './MainNav';
+import SideNav from './SideNav';
 
 const DashBoard = () => {
     return (
         <>
             <MainNav />
-            <Container fluid>
-                <Row>
-                    <Col md={3}>1 of 2</Col>
-                    <Col md={9}>2 of 2</Col>
-                </Row>
-            </Container>
+            <div className="container-fluid mt-2">
+                <div className="row">
+                    <SideNav />
+                    <div className="col-9"></div>
+                </div>
+            </div>
+
         </>
     );
 };

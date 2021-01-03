@@ -8,5 +8,12 @@ $theme-colors: (
   "secondary": #B6C5E3,
   "dark": #4C5A78,
 );
+$nav-pills-link-active-bg: #F1F4F9;
+$nav-pills-link-active-color:  #4C5A78;
+$nav-tabs-border-radius: 0;
 
 @import "~bootstrap/scss/bootstrap";
+
+.nav-link , .nav-link:hover{
+  color:#4C5A78;
+}
