@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import MainNav from './MainNav';
 import SideNav from './SideNav';
+import SMS from './SMS';
 
 const DashBoard = () => {
     return (
@@ -13,13 +14,13 @@ const DashBoard = () => {
                     <SideNav />
                     <div className="col-md-10 p-3">
                         <Switch>
-                            <Route exact path="/"><MainNav /></Route>
-                        <Route exact path="/sms"><h3>route 2</h3> </Route>
-                        <Route exact path="/modems"><h3>route 3</h3> </Route>
+                            <Route exact path="/"><h3>route 1</h3></Route>
+                            <Route exact path="/sms"><SMS /></Route>
+                            <Route exact path="/modems"><h3>route 3</h3> </Route>
                         </Switch>
+                    </div>
                 </div>
             </div>
-        </div>
 
         </>
     );

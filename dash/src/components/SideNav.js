@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const SideNav = () => {
   return (
-    <div className="col-md-2 bg-light vh-100">
+    <div className="col-md-2 bg-white vh-100">
       <Nav variant="pills" defaultActiveKey="link-0" className="flex-column  ">
         <Nav.Link as={Link} to="/" eventKey="link-0" className="p-3"><BsGrid size={20} className="mr-2" /> Dashboard</Nav.Link>
         <Nav.Link as={Link} to="/sms" eventKey="link-1" className="p-3"><BsEnvelope size={20} className="mr-2" /> SMS</Nav.Link>
