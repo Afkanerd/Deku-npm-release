@@ -7,10 +7,10 @@ const DashBoard = () => {
     return (
         <>
             <MainNav />
-            <div className="container-fluid mt-2">
-                <div className="row">
+            <div className="container-fluid mt-2 px-0">
+                <div className="row no-gutters">
                     <SideNav />
-                    <div className="col-9"></div>
+                    <div className="col-md-10"></div>
                 </div>
             </div>
 
