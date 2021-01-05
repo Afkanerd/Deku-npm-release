@@ -5,25 +5,25 @@ import {
 
 const data = [
     {
-        name: 'Sun', uv: 4000, pv: 2400, amt: 2400,
+        name: 'Sun', Orange: 4000, MTN: 2400, amt: 2400,
     },
     {
-        name: 'Mon', uv: 3000, pv: 1398, amt: 2210,
+        name: 'Mon', Orange: 3000, MTN: 1398, amt: 2210,
     },
     {
-        name: 'Tue', uv: 2000, pv: 9800, amt: 2290,
+        name: 'Tue', Orange: 2000, MTN: 9800, amt: 2290,
     },
     {
-        name: 'Wed', uv: 2780, pv: 3908, amt: 2000,
+        name: 'Wed', Orange: 2780, MTN: 3908, amt: 2000,
     },
     {
-        name: 'Thu', uv: 1890, pv: 4800, amt: 2181,
+        name: 'Thu', Orange: 1890, MTN: 4800, amt: 2181,
     },
     {
-        name: 'Fri', uv: 2390, pv: 3800, amt: 2500,
+        name: 'Fri', Orange: 2390, MTN: 3800, amt: 2500,
     },
     {
-        name: 'Sat', uv: 3490, pv: 4300, amt: 2100,
+        name: 'Sat', Orange: 3490, MTN: 4300, amt: 2100,
     },
 ];
 
@@ -45,8 +45,8 @@ const CustomLineChart = () => {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
-                <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+                <Line type="monotone" dataKey="MTN" stroke="#FFD700" activeDot={{ r: 8 }} />
+                <Line type="monotone" dataKey="Orange" stroke="#000000" />
             </LineChart>
         </div>
     );
