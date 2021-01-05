@@ -1,6 +1,7 @@
 import React from 'react';
 
 import CustomLineChart from './charts/CustomLineChart';
+import CustomPieChart from './charts/CustomPieChart';
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
                 </div>
 
                 <div className="col-md-6">
-
+                    <CustomPieChart />
                 </div>
             </div>
         </div>

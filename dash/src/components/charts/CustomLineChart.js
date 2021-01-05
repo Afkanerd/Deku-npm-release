@@ -3,6 +3,9 @@ import {
     LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
 
+import { BsEnvelope} from "react-icons/bs";
+
+
 const data = [
     {
         name: 'Sun', Orange: 4000, MTN: 2400, amt: 2400,
@@ -30,8 +33,8 @@ const data = [
 const CustomLineChart = () => {
 
     return (
-        <div className="bg-white p-4 rounded shadown-sm">
-            <h5 className="mb-4">SMS this week</h5>
+        <div className="bg-white p-4 rounded shadow-sm">
+            <h5 className="mb-4"><BsEnvelope /> This Week</h5>
             <LineChart
                 width={500}
                 height={250}
