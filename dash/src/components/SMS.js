@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 import { Badge } from 'react-bootstrap';
 import { BsTrash } from 'react-icons/bs';
-import MockData from "./MockData";
+import MockData from "./tables/MockData";
 
 
 const columns = [
