@@ -16,7 +16,7 @@ const columns = [
         label: "Company",
         options: {
             filter: true,
-            sort: false,
+            sort: true,
         }
     },
     {
@@ -24,7 +24,7 @@ const columns = [
         label: "City",
         options: {
             filter: true,
-            sort: false,
+            sort: true,
         }
     },
     {
@@ -32,7 +32,7 @@ const columns = [
         label: "State",
         options: {
             filter: true,
-            sort: false,
+            sort: true,
         }
     },
 ];

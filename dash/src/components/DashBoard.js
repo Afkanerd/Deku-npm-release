@@ -15,7 +15,7 @@ const DashBoard = () => {
             <div className="container-fluid mt-2 px-0">
                 <div className="row no-gutters">
                     <SideNav />
-                    <div className="col-md-10 p-3">
+                    <div className="col-md-10 py-4 px-5">
                         <Switch>
                             <Route exact path="/"><Home /></Route>
                             <Route exact path="/sms"><SMS /></Route>
