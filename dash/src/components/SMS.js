@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from "react-router-dom";
 import DataTable from "react-data-table-component";
 import { Badge } from 'react-bootstrap';
 import { BsTrash } from 'react-icons/bs';
@@ -53,10 +54,15 @@ const CustomCheckBox = React.forwardRef(({ onClick, ...rest }, ref) => (
 ));
 
 const SMS = () => {
+    let params = useParams();
+    let header = " SMS Logs";
+    if (params.modem) {
+        header = params.modem + header;
+    }
     return (
         <>
             <DataTable
-                title="SMS"
+                title={header}
                 columns={columns}
                 data={MockData}
                 defaultSortField="title"

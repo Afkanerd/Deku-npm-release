@@ -1,5 +1,6 @@
 import React from 'react';
 import { SiHuawei, SiVodafone } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Modems = () => {
     return (
@@ -13,8 +14,8 @@ const Modems = () => {
                             <p className="card-text">805487056577894</p>
 
                             <div className="d-md-flex justify-content-around my-3">
-                                <a href="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</a>
-                                <a href="#" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</a>
+                                <Link to="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</Link>
+                                <Link to="/sms/E303" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</Link>
                             </div>
                         </div>
                     </div>
@@ -28,8 +29,8 @@ const Modems = () => {
                             <p className="card-text">825487056577894</p>
 
                             <div className="d-md-flex justify-content-around my-3">
-                                <a href="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</a>
-                                <a href="#" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</a>
+                                <Link to="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</Link>
+                                <Link to="/sms/SH-120" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</Link>
                             </div>
                         </div>
                     </div>
@@ -43,8 +44,8 @@ const Modems = () => {
                             <p className="card-text">805487056577804</p>
 
                             <div className="d-md-flex justify-content-around my-3">
-                                <a href="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</a>
-                                <a href="#" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</a>
+                                <Link to="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</Link>
+                                <Link to="/sms/E3131A" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</Link>
                             </div>
                         </div>
                     </div>
@@ -58,8 +59,8 @@ const Modems = () => {
                             <p className="card-text">825487056577894</p>
 
                             <div className="d-md-flex justify-content-around my-3">
-                                <a href="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</a>
-                                <a href="#" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</a>
+                                <Link to="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</Link>
+                                <Link to="/sms/K-56" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</Link>
                             </div>
                         </div>
                     </div>
@@ -73,8 +74,8 @@ const Modems = () => {
                             <p className="card-text">805487056577894</p>
 
                             <div className="d-md-flex justify-content-around my-3">
-                                <a href="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</a>
-                                <a href="#" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</a>
+                                <Link to="#" className="btn btn-outline-primary px-lg-5 py-lg-1 mx-1">Info</Link>
+                                <Link to="/sms/E156" className="btn btn-primary px-lg-5 py-lg-1 mx-1">Logs</Link>
                             </div>
                         </div>
                     </div>

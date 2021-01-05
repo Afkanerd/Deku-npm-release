@@ -19,6 +19,7 @@ const DashBoard = () => {
                         <Switch>
                             <Route exact path="/"><Home /></Route>
                             <Route exact path="/sms"><SMS /></Route>
+                            <Route exact path="/sms/:modem"><SMS /></Route>
                             <Route exact path="/modems"><Modems /></Route>
                         </Switch>
                     </div>
