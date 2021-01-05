@@ -13,6 +13,11 @@ const SideNav = () => {
         <Nav.Link as={Link} to="/sms" eventKey="link-1" className="p-3"><BsEnvelope size={20} className="mr-2" /> SMS</Nav.Link>
         <Nav.Link as={Link} to="/modems" eventKey="link-2" className="p-3"><BsWifi size={20} className="mr-2" /> Modems</Nav.Link>
       </Nav>
+
+      <div id="version" className="p-3">
+        <p className="font-weight-bold mb-1">version</p>
+        <p>0.0.1</p>
+      </div>
     </div>
   );
 };

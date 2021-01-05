@@ -6,7 +6,7 @@ import SMSTable from './tables/SMSTable';
 
 const Home = () => {
     return (
-        <div classname="container-fluid p-3">
+        <div className="container-fluid p-3">
             <div className="row mb-5">
                 <div className="col-md-6">
                     <CustomLineChart />
@@ -17,9 +17,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <SMSTable rowsPerPage={6}/>
+            <div className="row mb-5">
+                <div className="col-md-12">
+                    <SMSTable rowsPerPage={6} />
                 </div>
             </div>
         </div>
