@@ -1,6 +1,8 @@
 import React from 'react';
 
 import MUIDataTable from "mui-datatables";
+import { Badge } from 'react-bootstrap';
+
 import MockData from './MockData';
 
 const columns = [
@@ -39,17 +41,22 @@ const columns = [
     {
         label: "STATUS",
         name: "status",
+        cell: (row) => <Badge pill variant="primary">{row.status}</Badge>,
         options: {
-            filter: true,
-            sort: true,
-        }
+            customBodyRender: (value) => (
+                <Badge pill variant="primary">{value}</Badge>
+            )
+        },
+
+        filter: true,
+        sort: true,
     },
 ];
 
 const options = {
     filterType: 'checkbox',
     count: MockData.length,
-    rowsPerPage : 6
+    rowsPerPage: 6
 };
 
 const SMSTable = () => {
