@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import { Badge } from 'react-bootstrap';
 
 import MockData from './MockData';
-import { propTypes } from 'react-bootstrap/esm/Image';
 
 const columns = [
     {
