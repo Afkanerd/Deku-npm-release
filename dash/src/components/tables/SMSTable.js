@@ -1,9 +1,11 @@
 import React from 'react';
-
 import MUIDataTable from "mui-datatables";
+import { useParams } from "react-router-dom";
+
 import { Badge } from 'react-bootstrap';
 
 import MockData from './MockData';
+import { propTypes } from 'react-bootstrap/esm/Image';
 
 const columns = [
     {
@@ -59,11 +61,19 @@ const options = {
     rowsPerPage: 6
 };
 
-const SMSTable = () => {
+const SMSTable = (props) => {
+    let params = useParams();
+    let header = " SMS Logs";
+    if (params.modem) {
+        header = params.modem + header;
+    }
+    if (props.rowsPerPage) {
+        options.rowsPerPage = props.rowsPerPage;
+    }
     return (
         <>
             <MUIDataTable className="shadow-sm p-3"
-                title={"SMS Logs"}
+                title={header}
                 data={MockData}
                 columns={columns}
                 options={options}
