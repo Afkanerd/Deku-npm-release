@@ -14,8 +14,11 @@
   "author": "Afkanerd",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "bootstrap": "^4.5.3",
     "chart.js": "^2.9.4",
+    "mui-datatables": "^3.7.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-chartjs-2": "^2.11.1",

@@ -37,7 +37,7 @@ const CustomLineChart = () => {
             <h5 className="mb-4"><BsEnvelope /> This Week</h5>
             <LineChart
                 width={500}
-                height={250}
+                height={275}
                 data={data}
                 margin={{
                     top: 5, right: 5, left: 5, bottom: 5,
