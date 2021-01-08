@@ -1,0 +1,44 @@
+{
+  "name": "d-dash",
+  "version": "1.0.0",
+  "description": "Deku Dashboard ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development --open --hot --history-api-fallback",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Deku"
+  ],
+  "author": "Afkanerd",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "mui-datatables": "^3.7.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  }
+}

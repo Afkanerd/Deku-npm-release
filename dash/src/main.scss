@@ -1,0 +1,31 @@
+// custom styles + overrides
+
+// overrides
+$body-bg: #f1f4f9;
+$theme-colors: (
+  "primary": rgb(17, 113, 186),
+  "danger": #ff4136,
+  "secondary": #b6c5e3,
+  "dark": #4c5a78,
+);
+$nav-pills-link-active-bg: rgba(17, 113, 186, 0.075);
+$nav-pills-link-active-color: rgb(17, 113, 186);
+$nav-tabs-border-radius: 0;
+
+@import "~bootstrap/scss/bootstrap";
+
+.nav-link,
+.nav-link:hover {
+  color: #4c5a78;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  border-right: 5px solid rgb(17, 113, 186);
+  border-radius: 0;
+}
+
+#version {
+  position: absolute;
+  bottom: 0;
+}
