@@ -1,0 +1,21 @@
+{
+  "name": "Deku-npm-release",
+  "version": "1.0.0",
+  "description": "Deku Daemon port for npm",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afkanerd/Deku-npm-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Afkanerd/Deku-npm-release/issues"
+  },
+  "homepage": "https://github.com/Afkanerd/Deku-npm-release#readme"
+}
